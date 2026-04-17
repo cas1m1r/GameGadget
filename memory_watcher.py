@@ -68,7 +68,7 @@ XINPUT_GAMEPAD_B = 0x2000
 XINPUT_GAMEPAD_LEFT_THUMB_DEADZONE = 7849
 SNAPSHOT_DIR = Path("snapshots")
 GLOBAL_SITE_PACKAGES = Path(
-    r"C:\Users\Casim\AppData\Local\Programs\Python\Python310\Lib\site-packages"
+     f'C:\\Users\\{os.getlogin()}\\AppData\\Local\\Programs\\Python\Python310\Lib\\site-packages'
 )
 
 try:
